@@ -1,17 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
+h<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#001524"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".homiepage">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="402dp"
-        android:layout_height="293dp"
-        android:foregroundGravity="center"
-        app:srcCompat="@drawable/hungryman"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="242dp" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_edittext"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="233dp"
+        android:layout_height="45dp"
+        android:text="TextView"
+        android:background="@drawable/rounded_edittext"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
